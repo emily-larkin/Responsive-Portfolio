@@ -1,0 +1,221 @@
+/* header styles */
+.fullheader {
+    background: #ffffff;
+    width: 100%;
+    height: 85px;
+    border-bottom: solid 2px #cccccc;
+    margin-top: -10px;
+}
+
+.top-section {
+    width: 960px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+h1 {
+    width: 270px;
+    background: #4aaaa5;
+    color: #ffffff;
+    float: left;
+    height: 64px;
+    padding: 20px 0px 0px 4px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.linkinginfo {
+    float: right;
+    position: relative;
+    top: 10px;
+}
+
+/* font for headings only  */
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* text color for the linking info in the header */
+h3,
+a {
+    color: darkgray;
+}
+
+/* styling for main sections */
+h2 {
+    color: #4aaaa5;
+    padding: 10px 0px 20px 5px;
+    border-bottom: solid 2px #cccccc;
+}
+
+.about-me,
+.contact-info,
+.portfolio {
+    width: 960px;
+    height: 550px;
+    background: #ffffff;
+    color: #dddddd;
+    margin: 0 auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+body {
+    background-image: url("../images/white-waves.png");
+}
+
+form {
+    padding-left: 10px;
+    color: black;
+}
+
+p {
+    color: darkgray;
+    float: left;
+    line-height: 130%;
+    font-size: 18px
+}
+
+/* styling for the image on the index page */
+.imgMe {
+    float: left;
+    margin: 8px 12px 0px 0px;
+}
+
+/* styling for the footer on each page */
+.footer {
+    background: #666666;
+    height: 47px;
+    position: sticky;
+    border-top: 8px solid #4aaaa5;
+    margin: 0px -10px -100px -10px;
+    clear: both;
+    right: 0px;
+    bottom: -10px;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 42px;
+}
+
+
+/* all images on the portfolio page */
+.gallery1 {
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
+}
+
+.gallery2 {
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
+}
+
+.gallery3 {
+    float: left;
+    overflow: auto;
+    margin: 20px 40px 20px 20px;
+}
+
+.gallery4 {
+    float: left;
+    overflow: auto;
+    margin: 20px 20px 20px 20px;
+}
+
+.gallery5 {
+    float: left;
+    overflow: auto;
+    margin: 20px 30px 20px 20px;
+}
+
+
+/* image description stying for portfolio page */
+.desc {
+    background: #4aaaa5;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: -42px;
+    color: white;
+}
+
+/* media queries  */
+
+/* mobile  640px */
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    h1 {
+        width: 325px;
+        text-align: center;
+        margin: -8px -8px -15px -8px;
+        position: sticky;
+        padding-top: 30px;
+    }
+
+    .linkinginfo {
+        position: sticky;
+        top: 80px;
+        right: 700px;
+        background: white;
+        padding: 10px;
+        width: 325px;
+        text-align: center;
+    }
+
+    .top-section {
+        height: 300px;
+        width: 325px;
+        margin: -8px;
+    }
+
+    .contact-info {
+        width: 325px;
+        height: 300px;
+    }
+
+    .form-inputs {
+        width: 325px;
+        height: 160px;
+    }
+
+}
+
+/* tablet  768px */
+@media only screen and (min-device-width: 768px) and (max-device-width: 980px) {
+    html {
+        background: yellow;
+    }
+
+    .top-section {
+        width: 768px;
+    }
+
+    h1 {
+        width: 270px;
+    }
+
+    .contact-info {
+        width: 768px;
+        height: 160px;
+    }
+
+    .form-inputs {
+        width: 768;
+        height: 160px;
+    }
+}
+
+/* desktop 980px */
+@media only screen and (min-device-width: 980px) and (max-device-width: 1600px) {
+    html {
+        background: red;
+    }
+    .form-inputs {
+        width: 920px;
+        height: 160px;
+    }
+}
