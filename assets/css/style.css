@@ -43,6 +43,7 @@ h3 {
 h3,
 a {
     color: darkgray;
+    text-decoration: none;
 }
 
 /* styling for main sections */
@@ -174,7 +175,7 @@ p {
         right: 700px;
         background: white;
         padding: 10px;
-        width: 640px;
+        width: 646px;
         text-align: center;
     }
 
@@ -215,7 +216,7 @@ p {
     }
 
     .imgSize {
-        width: 325px;
+        width: 355px;
         height: 325px;
     }
 
@@ -258,7 +259,7 @@ p {
     .contact-info {
         width: 540px;
         height: 500px;
-        margin: 30px 0px 200px 20px;
+        margin: 35px 0px 200px 140px;
     }
 
     .form-inputs {
@@ -269,13 +270,13 @@ p {
     .portfolio {
         width: 540px;
         height: 820px;
-        margin: 70px 0px 200px 20px;
+        margin: 35px 0px 200px 140px;
     }
 
     .about-me {
         width: 500px;
         height: 740px;
-        margin: 40px 0px 200px 20px;
+        margin: 35px 0px 200px 140px;
     }
 
     .form-inputs {
@@ -297,7 +298,7 @@ p {
     }
 
     .imgSize {
-        width: 210px;
+        width: 220px;
         height: 200px;
     }
 }
@@ -305,18 +306,39 @@ p {
 
 /* desktop 980px */
 @media only screen and (min-device-width: 980px) and (max-device-width: 4000px) {
-    .form-inputs {
-        width: 800px;
-        height: 20px;
-    }
-
     .imgMe {
         width: 160px;
         height: 150px;
     }
 
     .imgSize {
-        width: 170px;
-        height: 170px;
+        width: 210px;
+        height: 190px;
+    }
+
+    .contact-info {
+        width: 540px;
+        height: 410px;
+        margin: 35px 0px 200px 50px;
+    }
+
+    .portfolio {
+        width: 540px;
+        height: 840px;
+        margin: 35px 0px 200px 50px;
+    }
+
+    .about-me {
+        width: 500px;
+        height: 740px;
+        margin: 35px 0px 200px 50px;
+    }
+    .linkinginfo {
+        right: 25px;
+    }
+
+    .form-inputs {
+        width: 500px;
+        height: 20px;
     }
 }
