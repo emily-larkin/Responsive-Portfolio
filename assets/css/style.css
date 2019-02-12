@@ -29,6 +29,7 @@ h1 {
     float: right;
     position: relative;
     top: 10px;
+    font-weight: normal;
 }
 
 /* font for headings only  */
@@ -51,8 +52,9 @@ h2 {
     border-bottom: solid 2px #cccccc;
 }
 
-input, textarea {
-    border: solid 1.2px darkgray;
+input,
+textarea {
+    border: solid 1px lightgray;
 }
 
 button {
@@ -174,7 +176,6 @@ p {
         padding: 10px;
         width: 640px;
         text-align: center;
-        font-weight: normal;
     }
 
     .top-section {
@@ -185,7 +186,7 @@ p {
 
     .contact-info {
         width: 540px;
-        height: 350px;
+        height: 400px;
         margin: 70px 0px 200px 20px;
     }
 
@@ -193,82 +194,129 @@ p {
         width: 510px;
         height: 20px;
     }
+
     .about-me {
         width: 540px;
         height: 1100px;
         margin: 70px 0px 75px 20px;
     }
+
     .imgMe {
         clear: both;
         margin: 0px 20px 20px 40px;
         width: 450px;
         height: 396px;
     }
+
     .portfolio {
         width: 540px;
         margin: 70px 0px 75px 20px;
         height: 2020px;
     }
+
     .imgSize {
-        width: 325px; 
+        width: 325px;
         height: 325px;
     }
-   .gallery1, .gallery2, .gallery3, .gallery4, .gallery5 {
-       margin: 10px 0px 0px 103px;
-   }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5 {
+        margin: 10px 0px 0px 103px;
+    }
+
     .desc {
         padding: 10px;
         position: relative;
-        top: -72px; 
+        top: -72px;
         font-size: 25px;
     }
+
     h2 {
         font-size: 30px;
     }
-
 }
+
 
 /* tablet  768px */
 @media only screen and (min-device-width: 768px) and (max-device-width: 979px) {
     .top-section {
-        width: 768px;
+        width: 100%;
+        height: 200px;
     }
 
     h1 {
         width: 270px;
     }
 
+    .linkinginfo {
+        right: 25px;
+    }
+
     .contact-info {
-        width: 768px;
-        height: 160px;
+        width: 540px;
+        height: 500px;
+        margin: 30px 0px 200px 20px;
+    }
+
+    .form-inputs {
+        width: 510px;
+        height: 20px;
+    }
+
+    .portfolio {
+        width: 540px;
+        height: 820px;
+        margin: 70px 0px 200px 20px;
+    }
+
+    .about-me {
+        width: 500px;
+        height: 740px;
+        margin: 40px 0px 200px 20px;
     }
 
     .form-inputs {
         width: 768;
         height: 10px;
     }
+
     .imgMe {
-        width:160px;
-        height:150px;
+        width: 160px;
+        height: 150px;
     }
+
+    .gallery1,
+    .gallery2,
+    .gallery3,
+    .gallery4,
+    .gallery5 {
+        margin: 10px 0px 10px 40px;
+    }
+
     .imgSize {
-        width: 170px; 
-        height: 170px;
+        width: 210px;
+        height: 200px;
     }
 }
 
+
 /* desktop 980px */
-@media only screen and (min-device-width: 980px) and (max-device-width: 1600px) {
+@media only screen and (min-device-width: 980px) and (max-device-width: 4000px) {
     .form-inputs {
         width: 800px;
         height: 20px;
     }
+
     .imgMe {
-        width:160px;
-        height:150px;
+        width: 160px;
+        height: 150px;
     }
+
     .imgSize {
-        width: 170px; 
+        width: 170px;
         height: 170px;
     }
 }
